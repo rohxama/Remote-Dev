@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Dev</title>
+    <!-- Manrope Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200;1,300;1,400&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <!-- Inter Font Family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200;1,300;1,400&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <!-- Nunito Font Family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:ital,wght@0,400;1,300;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Outfit Font Family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:ital,wght@0,400;1,300;1,400;1,500&family=Outfit:wght@100;300;400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Slick Slider Theme Css  -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- Slick Slider Css  -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Bootstrap Css Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- BootStrap Icons Cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Css File  -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <div class="bg_graph">
+    <header>
+        <nav class="navbar py-3">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row mx-xl-5 mx-0 px-xl-2 px-0">
+                        <div class="col-xl-2 col-sm-6 col-8">
+                            <a class="navbar-brand" href="javascript:void(0);"><img src="./assets/media/Logo.png" alt=""></a>
+                        </div>
+                        <div class="col-xl-8 col-7 d-xl-block d-none pt-2">
+                            <nav class="navbar-nav">
+                                <ul class="d-flex nav justify-content-center gap-5">
+                                    <li><a href="javascript:void(0);" class="text-white fw-600 hov">Developers</a>
+                                    </li>
+                                    <li><a href="javascript:void(0);" class="text-white fw-600 hov">Experts</a></li>
+                                    <li><a href="javascript:void(0);" class="text-white fw-600 hov">Work</a></li>
+                                    <li><a href="javascript:void(0);" class="text-white fw-600 hov">About Us</a></li>
+                                    <li><a href="javascript:void(0);" class="text-white fw-600 hov">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-2 d-xl-block d-none text-center pt-2">
+                            <a href="javascript:void(0);"
+                                class="py-2 px-3 fw-bold rounded-pill btn-primary btn">Book A
+                                Call
+                                <i class="bi bi-telephone-fill fs-14 sec-clr ms-2"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-4 d-xl-none d-block text-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon ms-2"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end sec-bg" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/media/Logo.png"
+                                alt=""></a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pt-4 ps-3">
+                            <li class="nav-item mb-4">
+                                <a href="javascript:void(0);" class="text-white fw-600">Developers</a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a href="javascript:void(0);" class="text-white fw-600">Experts</a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a href="javascript:void(0);" class="text-white fw-600">Work</a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a href="javascript:void(0);" class="text-white fw-600">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" class="text-white fw-600">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="mt-5 ms-3">
+                            <a href="javascript:void(0);"
+                                class="fw-bold rounded-pill btn-primary btn">Book A
+                                Call
+                                <i class="bi bi-telephone-fill fs-14 sec-clr ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Mian Content  -->
+    <main>
+        <section class="hero-section pb-0">
+            <div class="container-fluid">
+                <div class="container">
+                    <div id="hero_main">
+                        <div class="row">
+                            <div class="col-xl-6 col-12 left-content text-xl-start text-center">
+                                <p class="fw-600 fs-5 pri-clr">Welcome to RemoDev</p>
+                                <h1 class="text-white text-capitalize">Hire a remote team of expert
+                                    developers & talent.</h1>
+                                <p class="fw-600 fs-6 silgray-clr me-2">We have a team of 100+ developers and experts
+                                    with a
+                                    minimum of 5 years of experience in their respective fields. Work with them remotely
+                                    to
+                                    complete projects more efficiently, end the contract anytime.</p>
+                                <form class="position-relative hero-sec-form mx-xxl-0 mx-auto">
+                                    <div>
+                                        <input type="email"
+                                            class="bg-transparent py-4 ps-4 w-100 rounded-pill form-control text-white fs-6"
+                                            id="searchInput" placeholder="example@gmail.com">
+                                    </div>
+                                    <button type="button"
+                                        class="fw-bold fs-5 rounded-pill position-absolute py-4 px-4 border-0 top-0 end-0 btn-primary btn">Book
+                                        A Call</button>
+                                </form>
+                            </div>
+                            <div class="col-xl-6 col-12 mt-4 text-xl-end text-center mt-xl-0 mt-5 pt-xxl-0 pt-4">
+                                <img src="./assets/media/hero-sec-img.png" alt="" class="w-100 d-block d-xl-none m-auto dextop_hero image_animation">
+                                <img src="./assets/media/hero-sec-dextop.png" alt=""
+                                    class="w-100 dextop_img d-none d-xl-block image_animation">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3 position_bottom">
+                            <p class="silgray-clr text-center">We provide services to the top companies</p>
+                            <div class="d-flex mx-auto row hero-sec-icons">
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon1.png" class="w-100" alt="Image 1">
+                                </div>
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon2.png" class="w-100" alt="Image 2">
+                                </div>
+                                <div class="col-1  mb-4">
+                                    <img src="./assets/media/hero-sec-icon3.png" class="w-100" alt="Image 3">
+                                </div>
+                                <div class="col-1  mb-4">
+                                    <img src="./assets/media/hero-sec-icon4.png" class="w-100" alt="Image 4">
+                                </div>
+                                <div class="col-1  mb-4">
+                                    <img src="./assets/media/hero-sec-icon5.png" class="w-100" alt="Image 5">
+                                </div>
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon6.png" class="w-100" alt="Image 6">
+                                </div>
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon7.png" class="w-100" alt="Image 7">
+                                </div>
+                                <div class="col-1 mb-4 ">
+                                    <img src="./assets/media/hero-sec-icon8.png" class="w-100" alt="Image 8">
+                                </div>
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon9.png" class="w-100" alt="Image 9">
+                                </div>
+                                <div class="col-1 mb-4">
+                                    <img src="./assets/media/hero-sec-icon10.png" class="w-100" alt="Image 10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="what_we_do p-xl-0 bg_line_graph">
+            <div class="container-fluid">
+                <div class="container">
+                    <div>
+                        <p class="short_heading">What We Do?</p>
+                        <h2> Global businesses can hire them within 48
+                            business hours.</p>
+                    </div>
+                    <div class="devider_tabs d-flex justify-content-around align-items-center my-5 py-5">
+                        <div class="d-flex custom_gap">
+                        
+                            <ul class="nav flex-column nav-tabs justify-content-between sec2-nav border-0 align-items-center" id="myTabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5 text-white-50 bg-transparent border-0 rounded-pill text-center" id="box-1-tab" data-toggle="tab" href="#box1">Aptitude
+                                        Evaluation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 text-white-50 bg-transparent border-0 rounded-pill text-center" id="box2-tab" data-toggle="tab" href="#box2">Technical
+                                        Assessment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 text-white-50 bg-transparent border-0 rounded-pill ms-3 transform_top text-center" id="box3-tab" data-toggle="tab" href="#box3">Panel
+                                        Interviewing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 text-white-50 bg-transparent border-0 rounded-pill transform_top text-center" id="box4-tab" data-toggle="tab" href="#box4">Language
+                                        Proficiency</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <img src="./assets/media/mobile_devider.png" alt="devider"class="mt-3 d-xl-none d-block">
+                                <img src="./assets/media/shape.png" alt="devider" class="mt-3 d-xl-block d-none">
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="box1">
+                                <div class="d-flex align-items-center">
+                                    <p class="tab_card_between text-white d-xl-block d-none">Lorem Ipsum</p>
+                                    <hr class="bordr d-xl-block d-none">
+                                    <div class="pri-bg pt-4 pb-1 ps-4 pe-2 rounded-3 card">
+                                        <img src="./assets/media/expert-icon1.png" alt="" class="mb-3" height="40px"
+                                            width="40px">
+                                        <p class="fw-600 sec-clr mb-1 content">Aptitude Evaluation</p>
+                                        <p class="fw-600 silgray-clr">We conduct scientifically designed aptitude tests
+                                            to assess a candidate's reasoning and problem-solving ability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="box2">
+                                <div class="d-flex align-items-center">
+                                    <p class="tab_card_between text-white d-xl-block d-none">Dolor, Sit.</p>
+                                    <hr class="bordr d-xl-block d-none">
+                                    <div class="pri-bg pt-4 pb-1 ps-4 pe-2 rounded-3 card">
+                                        <img src="./assets/media/expert-icon4.png" alt="" class="mb-3" height="40px"
+                                            width="40px">
+                                        <p class="fw-600 sec-clr mb-1 content">Technical Assessment</p>
+                                        <p class="fw-600 silgray-clr ">We conduct scientifically designed aptitude tests
+                                            to
+                                            assess a candidate's reasoning and problem-solving ability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="box3">
+                                <div class="d-flex align-items-center">
+                                    <p class="tab_card_between text-white d-xl-block d-none">Lorem Ipsum</p>
+                                    <hr class="bordr d-xl-block d-none">
+                                    <div class="pri-bg pt-4 pb-1 ps-4 pe-2 rounded-3 card">
+                                        <img src="./assets/media/expert-icon2.png" alt="" class="mb-3" height="40px"
+                                            width="40px">
+                                        <p class="fw-600 sec-clr mb-1 content">Panel Interviewing</p>
+                                        <p class="fw-600 silgray-clr ">We conduct scientifically designed aptitude tests
+                                            to assess a candidate's reasoning and problem-solving ability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="box4">
+                                <div class="d-flex align-items-center">
+                                    <p class="tab_card_between text-white d-xl-block d-none">dolor, sit.</p>
+                                    <hr class="bordr d-xl-block d-none">
+                                    <div class="pri-bg pt-4 pb-1 ps-4 pe-2 rounded-3 card m-lg-0 my-auto mx-5">
+                                        <img src="./assets/media/expert-icon3.png" alt="" class="mb-3" height="40px"
+                                            width="40px">
+                                        <p class="fw-600 sec-clr mb-1 content">Language Proficiency</p>
+                                        <p class="fw-600 silgray-clr ">We conduct scientifically designed aptitude tests
+                                            to assess a candidate's reasoning and problem-solving ability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <section id="steps" class=" pt-0">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-heading">
+                                <p class="short_heading">3 Simple Steps</p>
+                                <h2>Lorem ipsum dolor sit amet consectetur. Consectetur.</h2>
+                            </div>
+                            <div class="steps_cards m-auto">
+                                <div class="card_step_wrapper">
+                                    <div class="card_step m-auto">
+                                        <div class="arrow position-relative">
+                                            <img src="./assets/media/larg_arrow.png" alt="larg_arrow"
+                                                class="position-absolute">
+                                        </div>
+                                        <div class="counts ">
+                                            <span class="d-flex pri-bg m-auto mb-3">01</span>
+                                        </div>
+                                        <div class="content">
+                                            <span class="card_heading d-block pri-clr text-center mb-2">
+                                                Scope call
+                                            </span>
+                                            <p class="card_para text-center">Lorem ipsum dolor sit amet consectetur. In
+                                                sit est iaculis odio et id mattis sit et duis id habitant.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card_step m-auto">
+                                        <div class="arrow position-relative">
+                                            <img src="./assets/media/larg_arrow.png" alt="larg_arrow"
+                                                class="position-absolute">
+                                        </div>
+                                        <div class="counts ">
+                                            <span class="d-flex pri-bg m-auto mb-3">02</span>
+                                        </div>
+                                        <div class="content">
+                                            <span class="card_heading d-block pri-clr text-center mb-2">
+                                                Interview & Vetting
+                                            </span>
+                                            <p class="card_para text-center">Lorem ipsum dolor sit amet consectetur. In
+                                                sit est iaculis odio et id mattis sit et duis id habitant.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card_step m-auto">
+                                        <!-- <div class="arrow position-relative d-block d-lg-none">
+                                            <img src="./assets/media/larg_arrow.png" alt="larg_arrow"
+                                                class="position-absolute">
+                                        </div> -->
+                                        <div class="counts ">
+                                            <span class="d-flex pri-bg m-auto mb-3">03</span>
+                                        </div>
+                                        <div class="content">
+                                            <span class="card_heading d-block pri-clr text-center mb-2">
+                                                Recruited
+                                            </span>
+                                            <p class="card_para text-center">Lorem ipsum dolor sit amet consectetur. In
+                                                sit est iaculis odio et id mattis sit et duis id habitant.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Strength">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="section-heading">
+                                <p class="short_heading">Developer Strength</p>
+                                <h2>We can be the driving force behind your growth!</h2>
+                                <p class="text-center silver-clr fw-600 pt-2">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">Full Stack Developer</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">
+                                        Custom Soft. Developer</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">
+                                        ML & AI Engineering</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">
+                                        Mobile App Developer</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">
+                                        Cloud Engineer</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12">
+                            <div class="Strength_card">
+                                <div class="Strength_card_header">
+                                    <h3 class="Strength_card_heading text-center text-white">
+                                        Database Developer</h3>
+                                    <p class="text-center long_para m-auto">A team of web experts to launch your site
+                                        from scratch within weeks.</p>
+                                </div>
+                                <div class="Strength_card_body">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-plus-lg"></i> Access to 10xConference (Worth $59)</li>
+                                        <li><i class="bi bi-plus-lg"></i> Access all previous content</li>
+                                        <li><i class="bi bi-plus-lg"></i> Join weekly live sessions</li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <img src="./assets/media/Strength_card_6.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg_graph graph_tow">
+            <section class="project">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div>
+                            <p class="short_heading">Projects By RemoDev</p>
+                            <h2>Projects developed by our remote teams.</h2>
+                        </div>
+                        <div class="d-flex justify-content-center gap-5 mt-5">
+                            <div class="d-flex flex-column me-4">
+                                <p class=" pri-clr fw-bold display-2 outfit text-center">285+</p>
+                                <p class="text-white fs-17 outfit">Projects Completed</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class=" pri-clr fw-bold display-2 outfit text-center">190+</p>
+                                <p class="text-white fs-17 outfit">Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class=" mt-5">
+                            <div class="text-center">
+                                <img src="./assets/media/project-uppt-img.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="navy-bg rounded-3 schedule_part">
+                                <div class="row">
+                                    <div class="col-xl-7 col-12">
+                                        <div class="d-flex justify-content-between align-items-center mb-3 mb-xl-5">
+                                            <div>
+                                                <p class="fs-14 fw-bold pri-clr text-uppercase mb-0">Schedule a free session
+                                                </p>
+                                            </div>
+                                            <div class="btn d-block d-xl-none">
+                                                <a href="" class="btn btn-primary border-0 rounded-pill fw-bold fs-md-8">Book a 1:1
+                                                    <i class="bi bi-arrow-right-short fw-bold"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="d-flex flex-column">    
+                                                <img src="./assets/media/por-icon1.png" alt="" class="img-fluid"
+                                                    height="40px" width="40px">
+                                                <p class="text-white heading_meating mt-4 mb-2">Collaborating Power.</p>
+                                                <p class="silver-clr para_meating">Collaborate with us in a 15 minutes session to
+                                                    identify
+                                                    strategies and solutions for achieving your goals.</p>
+                                                <div class="d-none d-xl-block mt-3">
+                                                    <a href="" class="btn btn-primary border-0 rounded-pill fw-bold">Book a
+                                                        1:1 <i class="bi bi-arrow-right-short fw-bold"></i></a>
+                                                </div>
+                                            </div>
+                                            <hr class="devider_meating hr border-1 border">
+                                            <div class="d-flex flex-column">
+                                                <img src="./assets/media/pro-icon2.png" alt="" class="img-fluid"
+                                                    height="40px" width="40px">
+                                                <p class="text-white heading_meating mt-4 mb-2">Personalized Team.</p>
+                                                <p class="silver-clr">Build a remote team of developers can cater to your
+                                                    specific needs. Work with the best of bests.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5 col-12 right-content">
+                                        <div
+                                            class="schedule_meating d-flex flex-column gap-4 align-items-center img-cov py-3">
+                                            <div class="">
+                                                <img class="img-fluid" src="./assets/media/meating_img.png" alt="">
+                                            </div>
+                                            <img class="img-fluid" src="./assets/media/pro-bottom-img.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="expert pt-0 position_bottom">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="mb-5 pb-5">
+                            <p class="short_heading">Other Experts</p>
+                            <h2>Lorem ipsum dolor sit amet consectetur.
+                                Consectetur.</h2>
+                        </div>
+                        <div class="experts_cards_wrapper">
+                            <div class="experts_cards">
+                                <div class="experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-lg-0 m-auto">
+                                        <img src="./assets/media/expert-icon1.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">UI/UX Designer</p>
+                                        <p class="fw-600 silgray-clr">A team of web experts to launch your site from
+                                            scratch
+                                            within weeks.</p>
+                                    </div>
+                                </div>
+                                <div class="experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-lg-0 m-auto">
+                                        <img src="./assets/media/expert-icon2.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">Quality Assurance Engineer</p>
+                                        <p class="fw-600 silgray-clr ">Team of software architects and developers to deploy
+                                            your
+                                            system online..</p>
+                                    </div>
+                                </div>
+                                <div class="experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-xl-0 m-auto">
+                                        <img src="./assets/media/expert-icon3.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">Project Manager</p>
+                                        <p class="fw-600 silgray-clr">Industry leading AI experts that will assist you with
+                                            big
+                                            data & automation.</p>
+                                    </div>
+                                </div>
+                                <div class=" experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-lg-0 m-auto">
+                                        <img src="./assets/media/expert-icon4.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">System Administrator</p>
+                                        <p class="fw-600 silgray-clr">A mobile developer sculpting digital experience for
+                                            palm-sized delight.</p>
+                                    </div>
+                                </div>
+                                <div class="experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-lg-0 m-auto">
+                                        <img src="./assets/media/expert-icon5.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">SEO Expert</p>
+                                        <p class="fw-600 silgray-clr">A could engineer architecting virtual skies for
+                                            seamless scalable digital experiences.</p>
+                                    </div>
+                                </div>
+                                <div class="experts_card">
+                                    <div class="navy-bg pt-4 pb-3 px-4 rounded-3 ex-card m-xl-0 m-auto">
+                                        <img src="./assets/media/expert-icon6.png" alt="" >
+                                        <p class="fw-600 text-white mb-1 content">Cyber Security Specialist</p>
+                                        <p class="fw-600 silgray-clr">A database developer organizing digital kingdoms of
+                                            data for efficient & reliable.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="studies_sec pt-0 position_bottom">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div>
+                            <p class="short_heading">Case Studies</p>
+                            <h2>Something to write here about the projects
+                                that we have done.</h2>
+                        </div>
+                        <div class="outer-content rounded-2">
+                            <div class="tab">
+                                <div class="inner">
+                                    <hr class="hr mx-3 mb-4">
+                                    <ul class="nav nav-tabs justify-content-between border-0 flex-nowrap" id="myTabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active fw-bolder silgray-clr border-0"
+                                                id="para1-tab" data-toggle="tab" href="#para1">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle "></i>
+                                                Lorem ipsum</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bolder silgray-clr border-0"
+                                                id="para2-tab" data-toggle="tab" href="#para2">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle"></i>
+                                                dolor
+                                                sit</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bolder silgray-clr border-0"
+                                                id="para3-tab" data-toggle="tab" href="#para3">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle"></i>
+                                                amet
+                                                consectetur</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bolder silgray-clr border-0"
+                                                id="para4tab" data-toggle="tab" href="#para4">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle"></i>
+                                                adipisicing
+                                                elit</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bolder silgray-clr border-0"
+                                                id="para5-tab" data-toggle="tab" href="#para5">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle"></i>
+                                                Lorem
+                                                ipsum,</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bolder silgray-clr border-0"
+                                                id="para6-tab" data-toggle="tab" href="#para6">
+                                                <i class="bi bi-brush silgray-bg studies_shape rounded-circle"></i>
+                                                Contact</a>
+                                        </li>
+                                    </ul>
+    
+                                    <!-- Tab panes -->
+                                    <div class="tab-content mt-5 pt-5 ms-3">
+                                        <div class="tab-pane active" id="para1">
+                                            <p class="fw-bolder fs-40 text-white">Lorem ipsum dolor sit amet consectetur.
+                                                <br> Pellentesque.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 w-100">
+                                        </div>
+                                        <div class="tab-pane" id="para2">
+                                            <p class="fw-bolder fs-40 text-white">Lorem ipsum dolor sit amet consectetur.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 img-fluid">
+                                        </div>
+                                        <div class="tab-pane" id="para3">
+                                            <p class="fw-bolder fs-40 text-white">Lorem
+                                                Pellentesque.consectetur adipisicing elit. Blanditiis, commodi.consectetur
+                                                Blanditiis, commodi.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 img-fluid">
+                                        </div>
+                                        <div class="tab-pane" id="para4">
+                                            <p class="fw-bolder fs-40 text-white">Lorem ipsum dolor sit amet consectetur.
+                                                <br> Pellentesque.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 img-fluid">
+                                        </div>
+                                        <div class="tab-pane" id="para5">
+                                            <p class="fw-bolder fs-40 text-white">Lorem ipsum dolor sit amet consectetur.
+                                                <br> Lorem consectetur.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 img-fluid">
+                                        </div>
+                                        <div class="tab-pane" id="para6">
+                                            <p class="fw-bolder fs-40 text-white"> Nesciunt pariatur blanditiis, nisi
+                                                doloribus molestiae sit! elit. Blanditiis, commodi.
+                                            </p>
+                                            <p class="fs-24 silgray-clr">Lorem ipsum dolor sit amet consectetur. Arcu vitae
+                                                at id diam vulputate. Eget duis laoreet ac odio nullam sit tempor nisl
+                                                elementum. Enim pulvinar nec tincidunt eu turpis pellentesque nisl pretium
+                                                urna. Euismod enim ante viverra arcu adipiscing.</p>
+                                            <img src="./assets/media/case-img.png" alt="" class="mt-5 img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="p-0">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="">
+                        <p class="short_heading">Get in touch</p>
+                        <h2>Let’s talk about your project</h2>
+                    </div>
+                    <div>
+                        <form action="#" class="get-form d-flex gap-md-5 gap-sm-4 gap-3 flex-column">
+                            <div class="d-flex gap-md-5 gap-sm-4 gap-2 justify-content-center">
+                                <input type="text" name="name" id="name" placeholder="John David"
+                                    class="gray-bg upper-inp rounded-md-3 rounded-2 ps-md-4 ps-2">
+                                <input type="email" name="email" id="email" placeholder="example@yourmail.com"
+                                    class="gray-bg upper-inp rounded-md-3 rounded-2 ps-md-4 ps-2">
+                            </div>
+                            <div class="d-flex gap-md-5 gap-sm-4 gap-2 justify-content-center">
+                                <input type="text" name="companyname" id="companyname"
+                                    placeholder="yourcompany name here"
+                                    class="gray-bg upper-inp rounded-md-3 rounded-2 ps-md-4 ps-2">
+                                <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone number"
+                                    class="gray-bg upper-inp rounded-md-3 rounded-2 ps-md-4 ps-2">
+                            </div>
+                            <div class="d-flex flex-column gap-md-5 gap-sm-4 gap-3">
+                                <textarea name="text" id="text" cols="30" rows="10"
+                                    class="gray-bg rounded-md-3 rounded-2 ps-md-4 ps-2 pt-md-4 pt-2"
+                                    placeholder="Hello there,I would like to talk about how to..."></textarea>
+                                <textarea name="text" id="text" cols="30" rows="10"
+                                    class=" gray-bg rounded-md-3 rounded-2 textarea2 ps-md-4 ps-2 pt-md-4 pt-2"
+                                    placeholder="Remarks"></textarea>
+                            </div>
+                        </form>
+                        <div class="text-center session-btn">
+                            <a href="javascript:void(0);"
+                                class="fw-600 fs-14 py-3 px-4 rounded-pill btn-primary btn">Schedule
+                                a
+                                free session
+                                <i class="bi bi-arrow-right-short"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer  -->
+    <footer class="mt-5 pt-5">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mx-xl-5 mx-0 px-xl-2 px-0 pb-5 mb-5">
+                    <div class="col-xl-3 col-12 mb-xl-0 mb-5">
+                        <a href="javascript:void(0);"><img src="./assets/media/Logo.png" alt=""></a>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <ul class="d-flex flex-column navbar-nav">
+                            <li class="fs-17 sec-font text-white fw-600 mb-3">Services</li>
+                            <li class="mb-3"><a href="javascript:void(0);" class="sec-font fs-14 silver-clr hov">Full
+                                    Stack Developer</a></li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Machine
+                                    Learning & AI Engineer</a>
+                            </li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Database
+                                    Developer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12 mt-sm-0 mt-5">
+                        <ul class="d-flex flex-column navbar-nav">
+                            <li class="fs-17 sec-font text-white fw-600 mb-3">Experts</li>
+                            <li class="mb-3"><a href="javascript:void(0);" class="sec-font fs-14 silver-clr hov">SEO
+                                    Expert</a></li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Quality
+                                    Assurance Engineer</a></li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">System
+                                    Administrator</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-12 mt-xl-0 mt-5">
+                        <ul class="d-flex flex-column navbar-nav">
+                            <li class="fs-17 sec-font text-white fw-600 mb-3">RemoDev</li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Contact
+                                    Us</a></li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Content
+                                    Hub</a></li>
+                            <li class="mb-3"><a href="javascript:void(0);"
+                                    class="sec-font fs-14 silver-clr hov">Terms &
+                                    Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-sm-flex mx-xl-5 mx-0 px-xl-3 px-0 justify-content-between d-none">
+                    <p class=" silver-clr sec-font fs-15">© 2023 RemoDev.</p>
+                    <div class="d-flex gap-4">
+                        <a href=""><i class="bi bi-linkedin text-white"></i></a>
+                        <a href=""><i class="bi bi-twitter text-white"></i></a>
+                        <a href=""><i class="bi bi-facebook text-white"></i></a>
+                    </div>
+                    <p class=" silver-clr sec-font fs-15 me-5">Privacy Policy</p>
+                </div>
+                <!-- Mobile Footer  -->
+                <div class="d-flex mx-xl-5 mx-0 px-xl-3 px-0 justify-content-between d-sm-none flex-column">
+                    <div class="d-flex gap-4 mb-4 m-auto">
+                        <a href=""><i class="bi bi-linkedin text-white"></i></a>
+                        <a href=""><i class="bi bi-twitter text-white"></i></a>
+                        <a href=""><i class="bi bi-facebook text-white"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class=" silver-clr sec-font fs-15">© 2023 RemoDev.</p>
+                        <p class=" silver-clr sec-font fs-15">Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js Cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Script File  -->
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
